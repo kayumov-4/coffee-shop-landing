@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: U-Medium;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+}
+.container {
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+main {
+    background-color: #14110e;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    padding: 0 0 72px;
+}
+
+input,
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: I-Bold;
+    src: url(./assets/fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: I-Regular;
+    src: url(./assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: R-Regular;
+    src: url(./assets/fonts/Righteous-Regular.ttf);
+}
+@font-face {
+    font-family: U-Medium;
+    src: url(./assets/fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+    font-family: U-Semibold;
+    src: url(./assets/fonts/Urbanist-SemiBold.ttf);
+}
